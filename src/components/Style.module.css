@@ -7,6 +7,10 @@
   padding: 2vh;
   box-shadow: 15px 5px 15px silver;
   margin-bottom: 25px;
+
+/*   & > a {
+    
+  } */
 }
 
 .header a {
