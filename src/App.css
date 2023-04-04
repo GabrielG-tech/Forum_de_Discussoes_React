@@ -4,15 +4,35 @@
   box-sizing: border-box;
 }
 
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  background-image: linear-gradient( to bottom, white 50%, silver, gray, black );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-  background-image: linear-gradient( to bottom, white 50%, silver, gray, black );
+  padding-bottom: 20px;
 }
 
 .topico_principal {
+  text-align: center;
   font-family: Arial, sans-serif;
   margin-bottom: 12px;
+}
+
+.amigos {
+  display: none;
+}
+
+@media (min-width: 545px) {
+  .amigos {
+    display: inline;
+  }
 }

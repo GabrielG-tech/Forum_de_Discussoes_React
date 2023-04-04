@@ -7,7 +7,7 @@ export default function Header() {
         <a className="home">Home</a>
         <a className="explore">Explore</a>
         <a className="grupos">Grupos</a>
-        <a className="grupos">Amigos</a>
+        <a className="amigos">Amigos</a>
       </nav>
     </div>
   )
