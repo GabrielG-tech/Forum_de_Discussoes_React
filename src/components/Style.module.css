@@ -1,0 +1,116 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: gray;
+  padding: 2vh;
+  box-shadow: 15px 5px 15px silver;
+  margin-bottom: 25px;
+  
+}
+
+.header a {
+  color: white;
+  font-family: Arial;
+  margin-inline: 8px;
+  font-weight: bold;
+}
+
+.post {
+  width: 80vw;
+  padding: 12px;
+  background-color: #fafafa;
+}
+
+.post_content_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.usarname_data_container {
+  font-family: 'Lucida Grande', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.username {
+  color: #ADADAD;
+  font-size: 12px;
+}
+
+.data {
+  color: #ADADAD;
+  font-size: 12px;
+}
+
+
+.descrição {
+  font-size: 16px;
+  margin-block: 8px;
+}
+
+.feedback_post {
+  display: flex;
+  margin-top: 8px;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.likes, .sharings, .comments {
+  margin-right: 12px;
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+.img_post {
+  align-self: center;
+  width: 250px;
+  height: auto;
+  margin-inline: 16px;
+}
+
+.line_view {
+  margin-bottom: 8px;
+  width: max(75vw);
+  background-color: rgba(0,0,0,0.08);
+  height: 0.1px;
+  margin-inline: auto;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.08);
+}
+
+@media (min-width: 545px) {
+  .username_perfil_post {
+    font-size: 20px;
+    align-items: space-between;
+  }
+
+  .post_time {
+    font-size: 16px;
+  }
+
+  .titulo {
+    margin-bottom: 12px;
+  }
+
+  .subtitulo {
+    margin-bottom: 12px;
+  }
+  
+  .descrição_post {
+    font-size: 18px;
+    text-indent: 1em;
+    text-align: justify;
+    margin-bottom: 80px;
+  }
+
+  .likes, .sharings, .comments {
+    margin-top: 4px;
+    margin-right: 8px;
+    font-size: 16px;
+  }
+}
